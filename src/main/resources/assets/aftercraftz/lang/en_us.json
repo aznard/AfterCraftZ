@@ -4,5 +4,8 @@
 
   "item.aftercraftz.can_of_beans" : "Can of Beans",
   "item.aftercraftz.can_of_carrots" : "Can of Carrots",
-  "item.aftercraftz.can_of_peaches" : "Can of Peaches"
+  "item.aftercraftz.can_of_peaches" : "Can of Peaches",
+
+  "block.aftercraftz.brown_brick" : "Brown Brick",
+  "block.aftercraftz.black_brick" : "Black Brick"
 }

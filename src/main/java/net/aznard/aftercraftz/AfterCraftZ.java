@@ -1,5 +1,6 @@
 package net.aznard.aftercraftz;
 
+import net.aznard.aftercraftz.block.ModBlocks;
 import net.aznard.aftercraftz.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class AfterCraftZ implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerBlocks();
 	}
 }
