@@ -12,6 +12,7 @@ public class ModItems {
 
     //items
     public static final Item INGOT_COPPER = registerItem("ingot_copper", new Item(new Item.Settings()));
+    public static final Item THOMPSON = registerItem("thompson", new Item(new Item.Settings()));
 
     //foods
     public static final Item CAN_OF_BEANS = registerItem("can_of_beans", new Item(new Item.Settings().food(ModFoodComponents.CAN_OF_BEANS)));
@@ -28,6 +29,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             //items
             fabricItemGroupEntries.add(INGOT_COPPER);
+            fabricItemGroupEntries.add(THOMPSON);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
