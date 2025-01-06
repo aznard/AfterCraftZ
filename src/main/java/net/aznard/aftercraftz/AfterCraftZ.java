@@ -1,5 +1,6 @@
 package net.aznard.aftercraftz;
 
+import net.aznard.aftercraftz.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,7 +12,6 @@ public class AfterCraftZ implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello!");
+		ModItems.registerModItems();
 	}
 }
