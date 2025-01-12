@@ -1,4 +1,4 @@
-package net.aznard.aftercraftz.block;
+package net.aznard.aftercraftz.register;
 
 import net.aznard.aftercraftz.AfterCraftZ;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-public class ModBlocks {
+public class BlocksRegister {
 
     //blocks
     public static final Block BROWN_BRICK = registerBlock("brown_brick",
@@ -46,8 +46,8 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
 
             //blocks
-            fabricItemGroupEntries.add(ModBlocks.BROWN_BRICK);
-            fabricItemGroupEntries.add(ModBlocks.BLACK_BRICK);
+            fabricItemGroupEntries.add(BlocksRegister.BROWN_BRICK);
+            fabricItemGroupEntries.add(BlocksRegister.BLACK_BRICK);
         });
     }
 }

@@ -1,7 +1,9 @@
 package net.aznard.aftercraftz;
 
-import net.aznard.aftercraftz.block.ModBlocks;
-import net.aznard.aftercraftz.item.ModItems;
+import net.aznard.aftercraftz.register.BlocksRegister;
+import net.aznard.aftercraftz.register.GunRegister;
+import net.aznard.aftercraftz.register.ItemsRegister;
+import net.aznard.aftercraftz.register.ItemsGroupsRegister;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +15,10 @@ public class AfterCraftZ implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
-		ModBlocks.registerBlocks();
+		ItemsGroupsRegister.registerItemGroups();
+		GunRegister.registerGuns();
+
+		ItemsRegister.registerModItems();
+		BlocksRegister.registerBlocks();
 	}
 }

@@ -7,5 +7,9 @@
   "item.aftercraftz.can_of_peaches" : "Can of Peaches",
 
   "block.aftercraftz.brown_brick" : "Brown Brick",
-  "block.aftercraftz.black_brick" : "Black Brick"
+  "block.aftercraftz.black_brick" : "Black Brick",
+
+  "itemgroup.aftercraftz.foods_group" : "AfterCraftZ Foods",
+  "itemgroup.aftercraftz.items_group" : "AfterCraftZ Items",
+  "itemgroup.aftercraftz.blocks_group" : "AfterCraftZ Blocks"
 }
